@@ -11,9 +11,9 @@
 * The `showJokes` function is an asynchronous function that fetches data from the "Official Joke API" using `fetch`. If the request is successful, it updates the `randomJokes` state with the fetched joke. If there is an error during fetching, it logs the error to the console.
 3. Effect Hook:
 
-The `useEffect` hook calls the `showJokes` function once when the component mounts, ensuring that a joke is fetched as soon as the component loads.
-4. Conditional Rendering:
+* The `useEffect` hook calls the `showJokes` function once when the component mounts, ensuring that a joke is fetched as soon as the component loads.
 
+4. Conditional Rendering:
 * the component displays a "Loading..." message before the data is fetched. Once the joke is fetched and stored in the `randomJokes` state, it conditionally renders the joke's `setup` and `punchline`.
 5. Joke Display:
 
